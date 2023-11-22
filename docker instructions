@@ -1,0 +1,5 @@
+pip install git+https://github.com/behave/behave
+pip install playwright
+playwright install
+
+behave –f json.pretty –o my_reports.json
